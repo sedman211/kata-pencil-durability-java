@@ -70,11 +70,17 @@ public class Pencil {
 			{
 				
 			}
-			if(Character.isAlphabetic(sheet.getText().charAt(index)))
-				sheet.Edit(index, '@');
-			else
-				sheet.Edit(index, text.charAt(k));
-			index++;
+			try {
+				if(Character.isAlphabetic(sheet.getText().charAt(index)))
+					sheet.Edit(index, '@');
+				else
+					sheet.Edit(index, text.charAt(k));
+				index++;
+			}
+			catch(java.lang.StringIndexOutOfBoundsException exception) {
+				System.out.println("The text you tried to edit was larger than the text on paper.");
+				return;
+			}
 		}
 	}
 	
