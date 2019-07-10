@@ -1,6 +1,6 @@
 # Introduction
 
-This program was made for simulating the durability of a pencil with Java. The package consists of three classes: WriteDurability.java, Pencil.java and Paper.java. It requires the Java SDK and/or Eclipse IDE. Once installed and the PATH variables set,you can compile the package from the command line and run the WriteDurability.java program to begin the test.
+This program was made for simulating the durability of a pencil with Java. The package consists of three classes: WriteDurability.java, Pencil.java and Paper.java. It requires the Java SDK and/or Eclipse IDE. Once installed and the PATH variables set, you can compile the package from the command line and run the WriteDurability.java program to begin the test.
 
 ## Compiling
 
@@ -14,7 +14,7 @@ To compile the programs correctly in CMD, all you need to do is have all files i
 
 ## Overview + Usage
 
-Upon running the program, you will be prompted to enter three properties for your pencil: Length, Durability, and Eraser Durability all as integer values. This will determine how your pencil operates throughout the test. Once the pencil is made, a 'paper' is automatically created without the need for input, and you will be prompted to enter one of five functions: 'write', 'erase', 'edit', 'sharpen', or 'exit'.
+Upon running the program, you will be prompted to enter three properties for your pencil: Length, Durability, and Eraser Durability all as integer values. This will determine how your pencil operates throughout the test. When the pencil is made, a 'paper' is automatically created without the need for input, and you will be prompted to enter one of five functions: 'write', 'erase', 'edit', 'sharpen', or 'exit'.
 
 ## Write
 
